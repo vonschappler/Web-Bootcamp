@@ -10,6 +10,14 @@ What is published here is the result of the code produced on each class, with th
 
 ## Section_01:
 
-This section is a introductory section to introduce the concepts of **front-end web development**.
+This section introduces the concepts of **front-end web development**.
 
 Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_01).
+
+<hr>
+
+## Section_01:
+
+This section introduces the concepts of **basic HTML**.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_02).
