@@ -55,4 +55,19 @@ Below we have the code for all the HTML headings, from the top to the bottom lev
 <h5>Hello world from h5</h5>
 <h6>Hello world from h6</h6>
 ```
-There is no ``h7`` and below.
+There is no `h7` and below.
+
+Tips/Conventions:
+  - It's not a good practice to have more than a `h1` tag.
+  - Avoid skipping levels of headings
+
+Not following these tips won't break your site, but will keep it consistent in following international convetions for this tag.
+
+### HTML paragragh:
+
+Below we have the code for HTML paragraphs:
+```html
+<p>A simple paragraph in line 1</p>
+<p>A simple paragraph in line 2</p>
+```
+
