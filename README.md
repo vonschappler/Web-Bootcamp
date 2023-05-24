@@ -16,7 +16,7 @@ Notes about this section can be found [here](https://github.com/vonschappler/Web
 
 <hr>
 
-## Section_01:
+## Section_02:
 
 This section introduces the concepts of **basic HTML**.
 
