@@ -22,3 +22,37 @@ Basically a website is composed by 3 different files:
 3. **JavaScript file**: stores the functionality of the site
 
 Those 3 files together, is what will make webistes nowadays.
+
+<hr>
+
+## Section_02:
+
+### What is HTML?:
+
+The first websites were made with pure HMTL.
+
+HTML stands for HyperText Markup Language
+
+  - HyperText:<br>
+  Pieces of text (hyperlinks) which link to other documents on the website
+  - Markup Language:<br>
+  Markings (known as html tags) which creates elements on the HTML file.
+
+  HMTL tags are composed basically of 3 parts:
+  - Opening tag (for example <h1>)
+  - Content (for example "Hello world!")
+  - Closing tag (for example </h1>)
+
+  Those 3 parts compose what is known as an HTML element
+
+### HTML headings:
+Below we have the code for all the HTML headings, from the top to the bottom level:
+```html
+<h1>Hello world from h1</h1>
+<h2>Hello world from h2</h2>
+<h3>Hello world from h3</h3>
+<h4>Hello world from h4</h4>
+<h5>Hello world from h5</h5>
+<h6>Hello world from h6</h6>
+```
+There is no ``h7`` and below.
