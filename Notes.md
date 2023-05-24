@@ -39,9 +39,9 @@ HTML stands for HyperText Markup Language
   Markings (known as html tags) which creates elements on the HTML file.
 
   HMTL tags are composed basically of 3 parts:
-  - Opening tag (for example <h1>)
+  - Opening tag (for example `<h1>`)
   - Content (for example "Hello world!")
-  - Closing tag (for example </h1>)
+  - Closing tag (for example `</h1>`)
 
   Those 3 parts compose what is known as an HTML element
 
