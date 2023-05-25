@@ -292,6 +292,7 @@ C:/Apps/MyApp/run.exe
 ```
 
 - Relative paths are more useful for webdevelopers and they are relatively of a file being currently used. Those paths are usually shorter.
+
 ```ps
 #Example of a relative file path to the folder Apps
 ./MyApp/run.exe
@@ -361,12 +362,13 @@ HTML boilerplate is the starting code for any html file. This boilerplate has th
 ```
 
 Important concepts about this boilerplate:
- - Everything between `<head>` and `</head>` won't be displayed. This section includes important information abou the site, helping it to be rendered correctly.
- - `<meta charset="UTF-8">` sets the charset type in which the website was written. This makes it easier for the website to render all special symbols used. If the site was not made using `utf-8`, be sure to specify the correct charset.
- - `<meta http-equiv="X-UA-Compatible" content="IE=edge">` adds compatibliity on your website, making it visible on older browsers.
- - `<meta name="viewport" content="width=device-width, initial-scale=1.0">` specifies how the site should be rendered relatively as default on various devices.
- - `<title>Document</title>` specifies the title of the current html file, usually displayed on the top of the browser window or tab where the site is rendered.
- - Everything between `<body>` and `</body>` decribes which elements the website contains.
+
+- Everything between `<head>` and `</head>` won't be displayed. This section includes important information abou the site, helping it to be rendered correctly.
+- `<meta charset="UTF-8">` sets the charset type in which the website was written. This makes it easier for the website to render all special symbols used. If the site was not made using `utf-8`, be sure to specify the correct charset.
+- `<meta http-equiv="X-UA-Compatible" content="IE=edge">` adds compatibliity on your website, making it visible on older browsers.
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">` specifies how the site should be rendered relatively as default on various devices.
+- `<title>Document</title>` specifies the title of the current html file, usually displayed on the top of the browser window or tab where the site is rendered.
+- Everything between `<body>` and `</body>` decribes which elements the website contains.
 
 Tips/Conventions:
 
@@ -374,3 +376,7 @@ Tips/Conventions:
 
 <hr>
 <br>
+
+## Section_05:
+
+### Why do we need CSS?
