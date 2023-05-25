@@ -287,22 +287,55 @@ File paths can be absolute or relative paths.
 - Absolute paths are also known as the complete path to a folder or file
 
 ```ps
-# Example of a absolute file path
-C:\Apps\MyApp\run.exe
+#Example of a absolute file path
+C:/Apps/MyApp/run.exe
 ```
 
 - Relative paths are more useful for webdevelopers and they are relatively of a file being currently used. Those paths are usually shorter.
+```ps
+#Example of a relative file path to the folder Apps
+./MyApp/run.exe
+```
 
-Using `..` means `go up a level in the folder structure` while `.` means `stay on the same folder level`.
+Using `../` means `go up a level in the folder structure` while `./` means `stay on the same folder level`.
+
+<details>
+<summary>Example of use:</summary>
+To understand better, assume the current folder structure:
+
+```
+.
+├───User
+│   ├───MyImages
+└───Apss
+    ├───rsc
+    │   └───file.rsc
+    └───MyApp
+        ├───run.exe
+        └───public
+```
+
+- To access the file `run.exe` inside MyApp, relatively to `MyApp` folder, the path would be:
 
 ```ps
-# Example of relative file paths from "MyApp"
-# Points to the file inside "MyApp"
 ./run.exe
+```
 
-# Points to the top level
+- To access the file `file.rsc` inside rsc, relatively to `MyApp` folder, the path would be:
+
+```ps
 ../rsc/file.rsc
 ```
 
+</details>
+
 <hr>
 <br>
+
+### Multi-page webistes:
+
+In order to have multi-page websites, there are two basic pre-requisites which need to be satisfied:
+
+1. The folder structure of the site must contain various `*.html` files, such (as an example), `index.html`, `contact.html` and `about.html`
+2. The files should make relationship between each other, using anchor tags, where the `href` attribute links to the relative path from the origin HTML file to the destiny HMTL file.
+
