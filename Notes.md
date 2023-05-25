@@ -118,6 +118,7 @@ Below we have the code for two HTML void elements:
 <!-- or -->
 <br />
 ```
+
 <details>
 <summary>Example of use:</summary>
 
@@ -139,6 +140,45 @@ Tips/Conventions:
 
 ### HTML listings:
 
+- Unordered lists (order of the items do not matter):
+  Below there is the code for using unordered lists:
 
+```html
+<ul>
+  <li>Item A</li>
+  <li>Item B</li>
+  <li>Item C</li>
+</ul>
+```
+
+- Ordered lists (order of the items do matter):
+  Below there is the code for using unordered lists:
+
+```html
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+```
+
+<details>
+<summary>Example of use:</summary>
+
+> <p>Unordered list</p>
+> <ul>
+>  <li>Item A</li>
+>  <li>Item B</li>
+> <li>Item C</li>
+> </ul>
+> <hr>
+> <p>Ordered list</p>
+> <ol>
+>  <li>Item 1</li>
+> <li>Item 2</li>
+> <li>Item 3</li>
+> </ol>
+
+</details>
 <hr>
 <br>
