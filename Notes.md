@@ -232,7 +232,7 @@ Elements can contain attributes. The way of specifying attributes in HTML files 
 
 There are some atrributes which are specific to certain elements and global elements which can be used on any elements. For more information about those, check the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
-Anchor are elements used to create hyperlinks, by making use of the `<a>` opening tag and the `</a>` closing tag, with the special `href`, which specifies where should the hyperlink should redirect the user, attribute specified as seen below:
+Anchor are elements used to create hyperlinks, by making use of the `<a>` opening tag and the `</a>` closing tag, with the special `href` attribute, which specifies where should the hyperlink should redirect the user, as seen below:
 
 ```html
 <a href="any-site-or-page">Text to be displayed</a>
@@ -246,5 +246,32 @@ The element <code>`<a href='https://google.com'>Visit google</a>`</code> would d
 > <a href='https://google.com'>Visit google</a>
 
 </details>
+<hr>
+<br>
+
+### HTML images:
+
+Image elements are elements used to display images, by making use of the `<img />`, without a closing tag, with the special `src`, which specifies the image to be displayed and , as seen below:
+
+```html
+<img src='image-file-or-url'/>
+```
+
+<details>
+<summary>Example of use:</summary>
+
+> <img src='https://picsum.photos/200' />
+
+</details>
+
+Tips/Conventions:
+
+
+- The `alt` attribute stands for `alternative text` which displays a text when the image source is not loaded correctly.
+- Remember also to always ADD the `alt` for your `img` elements, because it helps imparied vision users to have the best experience when acessing your webite. This would then make the HMTL element to be defined as:
+```html
+<img src='image-file-or-url' alt='description-of-the-image'/>
+```
+
 <hr>
 <br>
