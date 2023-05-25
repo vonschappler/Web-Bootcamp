@@ -338,4 +338,39 @@ In order to have multi-page websites, there are two basic pre-requisites which n
 
 1. The folder structure of the site must contain various `*.html` files, such (as an example), `index.html`, `contact.html` and `about.html`
 2. The files should make relationship between each other, using anchor tags, where the `href` attribute links to the relative path from the origin HTML file to the destiny HMTL file.
+<hr>
+<br>
 
+### HTML bloilerplate:
+
+HTML boilerplate is the starting code for any html file. This boilerplate has the following structure:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+  </body>
+</html>
+```
+
+Important concepts about this boilerplate:
+ - Everything between `<head>` and `</head>` won't be displayed. This section includes important information abou the site, helping it to be rendered correctly.
+ - `<meta charset="UTF-8">` sets the charset type in which the website was written. This makes it easier for the website to render all special symbols used. If the site was not made using `utf-8`, be sure to specify the correct charset.
+ - `<meta http-equiv="X-UA-Compatible" content="IE=edge">` adds compatibliity on your website, making it visible on older browsers.
+ - `<meta name="viewport" content="width=device-width, initial-scale=1.0">` specifies how the site should be rendered relatively as default on various devices.
+ - `<title>Document</title>` specifies the title of the current html file, usually displayed on the top of the browser window or tab where the site is rendered.
+ - Everything between `<body>` and `</body>` decribes which elements the website contains.
+
+Tips/Conventions:
+
+- The `lang` helps screen reader applications to match the correct language of the contents in the website, so make sure to always add it to your files..
+
+<hr>
+<br>
