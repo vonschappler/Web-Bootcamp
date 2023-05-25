@@ -118,15 +118,6 @@ Below we have the code for two HTML void elements:
 <!-- or -->
 <br />
 ```
-
-It's also possible to see those void elements declared as
-
-```html
-<hr />
-<!-- or -->
-<hr />
-```
-
 <details>
 <summary>Example of use:</summary>
 
@@ -137,5 +128,10 @@ It's also possible to see those void elements declared as
 > <p>This is a pargraph, placed after the <code>br</code> element.</p>
 
 </details>
+
+Tips/Conventions:
+
+- Do not break a single paragraph into multiple paragraphs. Make use of `<br />` when it's necessary to make a single paragraph to have multiple lines.
+- It's also possible to see those void elements declared as `<hr/>` or `<hr>`, which is perfectly fine, but not recommended.
 <hr>
 <br>
