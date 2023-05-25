@@ -341,7 +341,7 @@ In order to have multi-page websites, there are two basic pre-requisites which n
 <hr>
 <br>
 
-### HTML bloilerplate:
+### HTML boilerplate:
 
 HTML boilerplate is the starting code for any html file. This boilerplate has the following structure:
 
