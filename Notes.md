@@ -275,3 +275,34 @@ Tips/Conventions:
 
 <hr>
 <br>
+
+## Section_04:
+
+### Computer file paths:
+
+File paths are ways of navigating between files and folders on a computer.
+
+File paths can be absolute or relative paths.
+
+- Absolute paths are also known as the complete path to a folder or file
+
+```ps
+# Example of a absolute file path
+C:\Apps\MyApp\run.exe
+```
+
+- Relative paths are more useful for webdevelopers and they are relatively of a file being currently used. Those paths are usually shorter.
+
+Using `..` means `go up a level in the folder structure` while `.` means `stay on the same folder level`.
+
+```ps
+# Example of relative file paths from "MyApp"
+# Points to the file inside "MyApp"
+./run.exe
+
+# Points to the top level
+../rsc/file.rsc
+```
+
+<hr>
+<br>
