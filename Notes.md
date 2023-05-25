@@ -113,9 +113,8 @@ A void element is a HTML element which forbids you to add content between the op
 Below we have the code for two HTML void elements:
 
 ```html
-<!-- or -->
 <hr />
-<!-- or -->
+<!-- and -->
 <br />
 ```
 
@@ -206,8 +205,8 @@ It's possible to nest lists inside other lists.
 <summary>Example of use:</summary>
 
 > <ul>
->   <li>Item A</li>
->   <ul>
+> <li>Item A</li>
+> <ul>
 > <li>Subitem A-A</li>
 > <li>Subitem A-B</li>
 > </ul>
@@ -379,4 +378,6 @@ Tips/Conventions:
 
 ## Section_05:
 
-### Why do we need CSS?
+### What is CSS?
+
+CSS stands for Cascade Style Sheets and this name makes reference to how the styles defined are applied - from the most general to the most specific rule.  Although it's juse one one among many styling languages for websites, but it's the most common and most used by web developers.
