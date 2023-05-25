@@ -199,24 +199,51 @@ It's possible to nest lists inside other lists.
     <li>Subitem B.1</li>
     <li>Subitem B.2</li>
   </ol>
-  
 </ul>
 ```
+
 <details>
 <summary>Example of use:</summary>
 
 > <ul>
 >   <li>Item A</li>
 >   <ul>
-    > <li>Subitem A-A</li>
-    > <li>Subitem A-B</li>
-  > </ul>
-  > <li>Item B</li>
-  > <ol>
-    > <li>Subitem B.1</li>
-    > <li>Subitem B.2</li>
-  > </ol>
-></ul>
+> <li>Subitem A-A</li>
+> <li>Subitem A-B</li>
+> </ul>
+> <li>Item B</li>
+> <ol>
+> <li>Subitem B.1</li>
+> <li>Subitem B.2</li>
+> </ol>
+> </ul>
+
+</details>
+<hr>
+<br>
+
+### HTML element atrributes and anchors:
+
+Elements can contain attributes. The way of specifying attributes in HTML files is displayed below:
+
+```html
+<tag attribute1="value1" attribute2="value2">Content</tag>
+```
+
+There are some atrributes which are specific to certain elements and global elements which can be used on any elements. For more information about those, check the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+
+Anchor are elements used to create hyperlinks, by making use of the `<a>` opening tag and the `</a>` closing tag, with the special `href`, which specifies where should the hyperlink should redirect the user, attribute specified as seen below:
+
+```html
+<a href="any-site-or-page">Text to be displayed</a>
+```
+
+<details>
+<summary>Example of use:</summary>
+
+The element <code>`<a href='https://google.com'>Visit google</a>`</code> would display this result in a HMTL file, and it would redirect us to `https://google.com` when clicked on the blue text displayed.
+
+> <a href='https://google.com'>Visit google</a>
 
 </details>
 <hr>
