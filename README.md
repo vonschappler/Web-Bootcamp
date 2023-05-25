@@ -24,5 +24,7 @@ Notes about this section can be found [here](https://github.com/vonschappler/Web
 
 <details>
 <summary>Project Movie Rating:</summary>
-The first project completed can be found <a href=''>here</a>.
+
+The first project completed can be found [here](https://vonschappler.github.io/Web-Bootcamp/Projects/MovieRanking/index.html).
+
 </details>
