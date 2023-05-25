@@ -38,12 +38,14 @@ HTML stands for HyperText Markup Language
   - Markup Language:<br>
   Markings (known as html tags) which creates elements on the HTML file.
 
-  HMTL tags are composed basically of 3 parts:
+  HMTL tags are mostly composed of 3 parts:
   - Opening tag (for example `<h1>`)
   - Content (for example "Hello world!")
   - Closing tag (for example `</h1>`)
 
   Those 3 parts compose what is known as an HTML element
+<hr>
+<br>
 
 ### HTML headings:
 Below we have the code for all the HTML headings, from the top to the bottom level:
@@ -55,13 +57,29 @@ Below we have the code for all the HTML headings, from the top to the bottom lev
 <h5>Hello world from h5</h5>
 <h6>Hello world from h6</h6>
 ```
-There is no `h7` and below.
+<details>
+<summary>Example of use:</summary>
+
+> <h1>Hello world from h1</h1>
+> <h2>Hello world from h2</h2>
+> <h3>Hello world from h3</h3>
+> <h4>Hello world from h4</h4>
+> <h5>Hello world from h5</h5>
+> <h6>Hello world from h6</h6>
+
+</details>
+
+<br>
+There is no `h7` and below. The code above would render something like this, to the browser:
+
 
 Tips/Conventions:
   - It's not a good practice to have more than a `h1` tag.
   - Avoid skipping levels of headings
 
 Not following these tips won't break your site, but will keep it consistent in following international convetions for this tag.
+<hr>
+<br>
 
 ### HTML paragragh:
 
@@ -70,4 +88,44 @@ Below we have the code for HTML paragraphs:
 <p>A simple paragraph in line 1</p>
 <p>A simple paragraph in line 2</p>
 ```
+
+<details>
+<summary>Example of use:</summary>
+
+> <p>A simple paragraph in line 1</p>
+> <p>A simple paragraph in line 2</p>
+
+</details>
+<hr>
+<br>
+
+### HTML void elements:
+A void element is a HTML element which forbids you to add content between the opening and closign tags, because void elements **DO NOT HAVE CLOSING TAGS**.
+
+Below we have the code for two HTML void elements:
+```html
+<!-- or -->
+<hr />
+<!-- or -->
+<br />
+```
+
+It's also possible to see those void elements declared as
+```html
+<hr/>
+<!-- or -->
+<hr>
+```
+<details>
+<summary>Example of use:</summary>
+
+> <p>This is a pargraph, with an <code>hr</code> element below it</p>
+> <hr>
+> <p>This is a pargraph, with an <code>br</code> element below it</p>
+> <br>
+> <p>This is a pargraph, placed after the <code>br</code> element.</p>
+
+</details>
+<hr>
+<br>
 
