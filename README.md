@@ -43,3 +43,24 @@ The second project completed can be found [here](https://vonschappler.github.io/
 
 </details>
 <hr>
+
+## Section_04:
+
+This section introduces the concepts of **multi-page websites**.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_04).
+
+<details>
+<summary>Project Portifolio Website:</summary>
+
+The third project completed can be found [here](https://vonschappler.github.io/Web-Bootcamp/Projects/PortifolioWebsite/index.html).
+
+</details>
+
+<details>
+<summary>Capstone Project 01:</summary>
+
+The first Capstone Project can be found [here](https://vonschappler.github.io/Web-Bootcamp/Projects/CapstoneProject_01/index.html).
+
+</details>
+<hr>
