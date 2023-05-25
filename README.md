@@ -34,7 +34,7 @@ The first project completed can be found [here](https://vonschappler.github.io/W
 
 This section introduces the concepts of **intermediate HTML**.
 
-Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_03)
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_03).
 
 <details>
 <summary>Project Birthday Card:</summary>
