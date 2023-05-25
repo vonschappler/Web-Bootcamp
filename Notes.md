@@ -182,3 +182,42 @@ Tips/Conventions:
 </details>
 <hr>
 <br>
+
+### HTML nesting:
+
+It's possible to nest lists inside other lists.
+
+```html
+<ul>
+  <li>Item A</li>
+  <ul>
+    <li>Subitem A-A</li>
+    <li>Subitem A-B</li>
+  </ul>
+  <li>Item B</li>
+  <ol>
+    <li>Subitem B.1</li>
+    <li>Subitem B.2</li>
+  </ol>
+  
+</ul>
+```
+<details>
+<summary>Example of use:</summary>
+
+> <ul>
+>   <li>Item A</li>
+>   <ul>
+    > <li>Subitem A-A</li>
+    > <li>Subitem A-B</li>
+  > </ul>
+  > <li>Item B</li>
+  > <ol>
+    > <li>Subitem B.1</li>
+    > <li>Subitem B.2</li>
+  > </ol>
+></ul>
+
+</details>
+<hr>
+<br>
