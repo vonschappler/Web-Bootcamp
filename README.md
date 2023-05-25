@@ -21,3 +21,8 @@ Notes about this section can be found [here](https://github.com/vonschappler/Web
 This section introduces the concepts of **basic HTML**.
 
 Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_02).
+
+<details>
+<summary>Project Movie Rating:</summary>
+The first project completed can be found <a href=''>here</a>.
+</details>
