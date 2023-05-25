@@ -64,3 +64,18 @@ The first Capstone Project can be found [here](https://vonschappler.github.io/We
 
 </details>
 <hr>
+
+## Section_05:
+
+This section introduces the concepts of **basic css**.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_05).
+
+<details>
+<summary>Project Color Vocab:</summary>
+
+The fourth project completed can be found [here](https://vonschappler.github.io/Web-Bootcamp/Projects/ColorVocab/index.html).
+
+</details>
+
+<hr>
