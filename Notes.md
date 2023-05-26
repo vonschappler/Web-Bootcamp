@@ -389,10 +389,10 @@ CSS stands for Cascade Style Sheets and this name makes reference to how the sty
 
 There are 3 ways of adding CSS to an html file:
 
-- Inline - the rule(s) are added as an attribute of the element itself (the global `style` attribute) and those rules are apllied only to the element where the css was added:
+- Inline - the rule(s) are added as an attribute of the element itself (the global `style` attribute) and those rules are apllied ONLY to the element where the css was added:
 
 ```html
-<tag style="property1: value1; property2: value2;"></tag>
+<tag style="property_1: value_1; ...; property_n: value_n;"></tag>
 ```
 
 <details>
@@ -401,22 +401,28 @@ There are 3 ways of adding CSS to an html file:
 The code:
 
 ```html
-<p style="background: blue; color: white">
-  This is a paragraph, with a blue line and white colored text.
+<p style="background: red; color: white">
+  This is a paragraph with red text in a white background
 </p>
 ```
 
 would display the result below:
 
- <p style='background:blue;color:white'>This is a paragraph, with a blue line and white colored text.</p>
+<img src='https://media.discordapp.net/attachments/500413717561868288/1111572163259011112/image.png' alt='preview 01'>
 
 </details>
 
-- Internal - the rule(s) are added as a style html element (using the `<style>` and `</style>` tags) into the page and the rules are applied only into the page this style was added:
+<br>
+
+- Internal - the rule(s) are added as a style html element (using the `<style>` and `</style>` tags) into the page and the rules are applied ONLY into the page this style was added:
 
 ```html
 <style>
-  css
+  selector {
+    property_1: value_1;
+    ...
+    property_n: value_n;
+  }
 </style>
 ```
 
@@ -429,52 +435,58 @@ The code:
 
 ```html
 <style>
-  button {
-    background: teal;
-    color: white;
+  p {
+    background: gray;
+    color: blue;
   }
 </style>
-<button>Test Button</button>
+<p>This is a paragraph with blue text in a gray background</p>
 ```
 
 would display the result below:
 
- <style>
-  button {
-    background: teal;
-    color: white;
-  }
- </style>
-
- <button> Test Button</button>
+<img src='https://media.discordapp.net/attachments/500413717561868288/1111572554386247741/image.png' alt='preview 02'>
 
 </details>
 
-- External - the rule(s) are added as an external file, which can be re-used in different pages, by using the `<link>` tag:
+<br>
+- External - the rule(s) are added as an external file, which can be re-used in different pages, by using the `<link>` tag, being the most used cases when creating a multi-page website:
 
-```html
-<link rel="stylesheet" href="style.css" />
+```css
+/* create a file with the name stype.css*/
+selector {
+  property_1: value_1;
+  ...
+  property_n: value_n;
+}
 ```
 
+```html
+<!-- add this line to the html files where the styles need to be applied-->
+<link rel="stylesheet" href="url/to/style.css" />
+```
+
+<details>
+<summary>Example of use:</summary>
 The codes:
 
 ```css
-h4 {
+/* style.css */
+p {
   background: white;
-  color: red;
+  color: black;
 }
 ```
 
 and
 
 ```html
-<link rel="stylesheet" href="./test_style.css" />
-<h4>A red text inside a h4 with a white background!</h4>
+<link rel="stylesheet" href="./style.css" />
+<p>This is a paragraph with white text in a black background</p>
 ```
 
 would display the result below:
 
-<link rel="stylesheet" href="./test_style.css" />
-<h4> A red text inside a h4 with a white background!</h4>
+<img src='https://media.discordapp.net/attachments/500413717561868288/1111572769679872071/image.png' alt='preview 03'>
 
 </details>
