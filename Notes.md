@@ -380,4 +380,101 @@ Tips/Conventions:
 
 ### What is CSS?
 
-CSS stands for Cascade Style Sheets and this name makes reference to how the styles defined are applied - from the most general to the most specific rule.  Although it's juse one one among many styling languages for websites, but it's the most common and most used by web developers.
+CSS stands for Cascade Style Sheets and this name makes reference to how the styles defined are applied - from the most general to the most specific rule. Although it's juse one one among many styling languages for websites, but it's the most common and most used by web developers.
+
+<hr>
+<br>
+
+### How to add CSS?
+
+There are 3 ways of adding CSS to an html file:
+
+- Inline - the rule(s) are added as an attribute of the element itself (the global `style` attribute) and those rules are apllied only to the element where the css was added:
+
+```html
+<tag style="property1: value1; property2: value2;"></tag>
+```
+
+<details>
+<summary>Example of use:</summary>
+
+The code:
+
+```html
+<p style="background: blue; color: white">
+  This is a paragraph, with a blue line and white colored text.
+</p>
+```
+
+would display the result below:
+
+> <p style='background:blue;color:white'>This is a paragraph, with a blue line and white colored text.</p>
+
+</details>
+
+- Internal - the rule(s) are added as a style html element (using the `<style>` and `</style>` tags) into the page and the rules are applied only into the page this style was added:
+
+```html
+<style>
+  css
+</style>
+```
+
+This block of code is usually added inside the head element of the html file.
+
+<details>
+<summary>Example of use:</summary>
+
+The code:
+
+```html
+<style>
+  button {
+    background: teal;
+    color: white;
+  }
+</style>
+<button>Test Button</button>
+```
+
+would display the result below:
+
+> <style>
+>  button {
+>    background: teal;
+>    color: white;
+>  }
+> </style>
+>
+> <button> Test Button</button>
+
+</details>
+
+- External - the rule(s) are added as an external file, which can be re-used in different pages, by using the `<link>` tag:
+
+```html
+<link rel="stylesheet" href="style.css" />
+```
+
+The codes:
+
+```css
+h4 {
+  background: white;
+  color: red;
+}
+```
+
+and
+
+```html
+<link rel="stylesheet" href="./test_style.css" />
+<h4>A red text inside a h4 with a white background!</h4>
+```
+
+would display the result below:
+
+> <link rel="stylesheet" href="./test_style.css" />
+> <h4> A red text inside a h4 with a white background!</h4>
+
+</details>
