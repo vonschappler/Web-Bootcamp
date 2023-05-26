@@ -408,7 +408,7 @@ The code:
 
 would display the result below:
 
-> <p style='background:blue;color:white'>This is a paragraph, with a blue line and white colored text.</p>
+ <p style='background:blue;color:white'>This is a paragraph, with a blue line and white colored text.</p>
 
 </details>
 
@@ -439,14 +439,14 @@ The code:
 
 would display the result below:
 
-> <style>
->  button {
->    background: teal;
->    color: white;
->  }
-> </style>
->
-> <button> Test Button</button>
+ <style>
+  button {
+    background: teal;
+    color: white;
+  }
+ </style>
+
+ <button> Test Button</button>
 
 </details>
 
@@ -474,7 +474,7 @@ and
 
 would display the result below:
 
-> <link rel="stylesheet" href="./test_style.css" />
-> <h4> A red text inside a h4 with a white background!</h4>
+<link rel="stylesheet" href="./test_style.css" />
+<h4> A red text inside a h4 with a white background!</h4>
 
 </details>
