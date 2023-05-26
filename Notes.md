@@ -462,7 +462,7 @@ selector {
 ```
 
 ```html
-<!-- add this line to the html files where the styles need to be applied-->
+<!-- add this line to head block in the html files where the styles need to be applied-->
 <link rel="stylesheet" href="url/to/style.css" />
 ```
 
@@ -490,3 +490,254 @@ would display the result below:
 <img src='https://media.discordapp.net/attachments/500413717561868288/1111572769679872071/image.png' alt='preview 03'>
 
 </details>
+
+<hr>
+<br>
+
+### CSS selectors:
+
+CSS selector is the part of any css rule that points to the element which the rules should be applied.
+
+- Element selector:
+  element selectors are the simplest ones and they target all elements which match the selected tag.
+
+```css
+element {
+  property_1: value_1;
+  ...
+  property_n: value_n
+}
+```
+
+<details>
+<summary>Example of use:</summary>
+The codes:
+
+```css
+h2 {
+  color: red;
+}
+```
+
+and
+
+```html
+<h2>Red</h2>
+<h2>Green</h2>
+<h2>Blue</h2>
+```
+
+will return the following result:
+
+<img src='https://media.discordapp.net/attachments/500413717561868288/1111591997271195730/image.png' alt='preview 04'>
+
+</details>
+<br>
+
+- Class selector: classes selectors are the ones which "group" elements which should have the same stile to them. Classes are always defined using the attribute `class` when declaring the html element and called inside the css using a `.` followed by the name of the "group".
+
+On HTML:
+
+```html
+<element1 class="group-name">element1 content</element1>
+<element2 class="group-name">element2 content</element2>
+```
+
+then on CSS:
+
+```css
+.group-name: {
+  property_1: value_1;
+  ...
+  property_n: value_n;
+}
+```
+
+<details>
+<summary>Example of use:</summary>
+The codes:
+
+```css
+h2 {
+  color: red;
+}
+
+.green-heading {
+  color: green;
+}
+```
+
+and
+
+```html
+<h2>Red</h2>
+<h2 class="green-heading">Green</h2>
+<h2 class="green-heading">Blue</h2>
+```
+
+will return the following result:
+
+<img src='https://media.discordapp.net/attachments/500413717561868288/1111702745037152257/image.png' alt='preview 06'>
+
+</details>
+<br>
+
+- ID selector: id selectors are the ones which specify a single element with a unique id. Elements ids are defined by using the attribute `id` when declaring the html element and called inside the css using a `#` followed by the name of the "id".
+
+HTML ids have to be unique, because those are the identifiers of elements on the same an id card is used to identify a unique person.
+
+On HTML:
+
+```html
+<element1 attribute="unique_identifier_1"> element1 content </element1>
+```
+
+then on CSS:
+
+```css
+#unique_identifier_1: {
+  property_1: value_1;
+  ...
+  property_n: value_n;
+}
+```
+
+<details>
+<summary>Example of use:</summary>
+The codes:
+
+```css
+h2 {
+  color: red;
+}
+
+.green-heading {
+  color: green;
+}
+
+#blue-heading {
+  color: blue;
+}
+```
+
+and
+
+```html
+<h2>Red</h2>
+<h2 class="green-heading">Green</h2>
+<h2 id="blue-heading" class="green-heading">Blue</h2>
+```
+
+will return the following result:
+
+<img src='https://media.discordapp.net/attachments/500413717561868288/1111704808190132334/image.png' alt='preview 07'>
+
+</details>
+<br>
+
+- Attribute selector: attribute selectors are the ones which elements based on a specific attribute or the attribute value they have. This is created in the css by using the sintax below:
+
+On HTML:
+
+```html
+<element attribute="value"> element content1 </element>
+<element attribute="value"> element content2 </element>
+```
+
+then on CSS:
+
+```css
+element[atrribute="value"]: {
+  property_1: value_1;
+  ...
+  property_n: value_n;
+}
+```
+
+<details>
+<summary>Example of use:</summary>
+The codes:
+
+```css
+h2 {
+  color: red;
+}
+
+.green-heading {
+  color: green;
+}
+
+#blue-heading {
+  color: blue;
+}
+
+h2[setUnderline="true"] {
+  text-decoration: underline;
+}
+```
+
+and
+
+```html
+<h2 setUnderline="true">Red</h2>
+<h2 class="green-heading">Green</h2>
+<h2 id="blue-heading" class="green-heading" setUnderline="true">Blue</h2>
+```
+
+will return the following result:
+
+<img src='https://media.discordapp.net/attachments/500413717561868288/1111713351798628362/image.png' alt='preview 08'>
+
+</details>
+<br>
+
+- Universal selector: the universal selector selects everything on the HTML file and apply the rules defined such as below:
+
+```css
+* {
+  property1: value1;
+  ...
+  property2: value2;
+}
+```
+
+<details>
+<summary>Example of use:</summary>
+The codes:
+
+```css
+* {
+  background: lightblue;
+}
+
+h2 {
+  color: red;
+}
+
+.green-heading {
+  color: green;
+}
+
+#blue-heading {
+  color: blue;
+}
+
+h2[setUnderline="true"] {
+  text-decoration: underline;
+}
+```
+
+and
+
+```html
+<h2 setUnderline="true">Red</h2>
+<h2 class="green-heading">Green</h2>
+<h2 id="blue-heading" class="green-heading" setUnderline="true">Blue</h2>
+```
+
+will return the following result:
+
+<img src='https://media.discordapp.net/attachments/500413717561868288/1111717061501132940/image.png' alt='preview 09'>
+
+</details>
+<br>
