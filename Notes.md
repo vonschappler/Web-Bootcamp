@@ -401,7 +401,7 @@ There are 3 ways of adding CSS to an html file:
 The code:
 
 ```html
-<p style="background: red; color: white">
+<p style="background: white; color: red">
   This is a paragraph with red text in a white background
 </p>
 ```
@@ -450,10 +450,11 @@ would display the result below:
 </details>
 
 <br>
+
 - External - the rule(s) are added as an external file, which can be re-used in different pages, by using the `<link>` tag, being the most used cases when creating a multi-page website:
 
 ```css
-/* create a file with the name stype.css*/
+/* create a file with the name style.css*/
 selector {
   property_1: value_1;
   ...
@@ -505,7 +506,7 @@ CSS selector is the part of any css rule that points to the element which the ru
 element {
   property_1: value_1;
   ...
-  property_n: value_n
+  property_n: value_n;
 }
 ```
 
@@ -534,7 +535,7 @@ will return the following result:
 </details>
 <br>
 
-- Class selector: classes selectors are the ones which "group" elements which should have the same stile to them. Classes are always defined using the attribute `class` when declaring the html element and called inside the css using a `.` followed by the name of the "group".
+- Class selector: class selectors are the ones which "group" elements which should have the same stile to them. Classes are always defined using the attribute `class` when declaring the html element and called inside the css using a `.` followed by the name of the "group".
 
 On HTML:
 
@@ -589,7 +590,7 @@ HTML ids have to be unique, because those are the identifiers of elements on the
 On HTML:
 
 ```html
-<element1 attribute="unique_identifier_1"> element1 content </element1>
+<element1 id="unique_identifier_1"> element1 content </element1>
 ```
 
 then on CSS:
