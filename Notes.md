@@ -77,10 +77,10 @@ Below we have the code for all the HTML headings, from the top to the bottom lev
 <br>
 There is no `h7` and below. The code above would render something like this, to the browser:
 
-Tips/Conventions:
-
-- It's not a good practice to have more than a `h1` tag.
-- Avoid skipping levels of headings
+> Tips/Conventions:
+>
+> - It's not a good practice to have more than a `h1` tag.
+> - Avoid skipping levels of headings
 
 Not following these tips won't break your site, but will keep it consistent in following international convetions for this tag.
 
@@ -129,10 +129,11 @@ Below we have the code for two HTML void elements:
 
 </details>
 
-Tips/Conventions:
+> Tips/Conventions:
+>
+> - Do not break a single paragraph into multiple paragraphs. Make use of `<br />` when it's necessary to make a single paragraph to have multiple lines.
+> - It's also possible to see those void elements declared as `<hr/>` or `<hr>`, which is perfectly fine, but not recommended.
 
-- Do not break a single paragraph into multiple paragraphs. Make use of `<br />` when it's necessary to make a single paragraph to have multiple lines.
-- It's also possible to see those void elements declared as `<hr/>` or `<hr>`, which is perfectly fine, but not recommended.
 <hr>
 
 ## Section_03:
@@ -263,10 +264,10 @@ Image elements are elements used to display images, by making use of the `<img /
 
 </details>
 
-Tips/Conventions:
-
-- The `alt` attribute stands for `alternative text` which displays a text when the image source is not loaded correctly.
-- Remember also to always ADD the `alt` for your `img` elements, because it helps imparied vision users to have the best experience when acessing your webite. This would then make the HMTL element to be defined as:
+> Tips/Conventions:
+>
+> - The `alt` attribute stands for `alternative text` which displays a text when the image source is not loaded correctly.
+> - Remember also to always ADD the `alt` for your `img` elements, because it helps imparied vision users to have the best experience when acessing your webite. This would then make the HMTL element to be defined as:
 
 ```html
 <img src="image-file-or-url" alt="description-of-the-image" />
@@ -369,9 +370,9 @@ Important concepts about this boilerplate:
 - `<title>Document</title>` specifies the title of the current html file, usually displayed on the top of the browser window or tab where the site is rendered.
 - Everything between `<body>` and `</body>` decribes which elements the website contains.
 
-Tips/Conventions:
-
-- The `lang` helps screen reader applications to match the correct language of the contents in the website, so make sure to always add it to your files..
+> Tips/Conventions:
+>
+> - The `lang` helps screen reader applications to match the correct language of the contents in the website, so make sure to always add it to your files..
 
 <hr>
 <br>
@@ -672,7 +673,7 @@ h2 {
   color: blue;
 }
 
-h2[setUnderline="true"] {
+h2[setUnderline='true'] {
   text-decoration: underline;
 }
 ```
@@ -723,7 +724,7 @@ h2 {
   color: blue;
 }
 
-h2[setUnderline="true"] {
+h2[setUnderline='true'] {
   text-decoration: underline;
 }
 ```
@@ -745,9 +746,101 @@ will return the following result:
 
 ## Section_06:
 
-### CSS colors:
+### Color properties:
 
- - Named colors - colors where the name is used to set a color property
- - Hex colors - colors where the color is represented by a HEX code as for example #FF73AB
- - RGB colors - colors where the color is represented in a matrix of 3 values (red, green and blue). Each value stars on 0 and ends on 255, as for example rgb(200, 30, 20)
+- Named colors - colors where the name is used to set a color property
+- RGB colors - colors where the color is represented in a matrix of 3 values (red, green and blue). Each value stars on 0 and ends on 255, as for example rgb(200, 30, 20)
+- Hex colors - colors where the color is represented by a HEX code as for example #FF73AB
+
+<details>
+<summary>Example of use:</summary>
+
+```css
+/* Named colors */
+h1 {
+  background-color: blue;
+  color: red;
+}
+
+/* RGB colors */
+h2 {
+  background-color: rgb(0, 255, 0);
+  color: rgb(255, 0, 0);
+}
+
+/* HEX colors  */
+h3 {
+  background-color: #00ff00;
+  color: #ff0000;
+}
+```
+
+</details>
+
+<hr>
+<br>
+
+### Font properties:
+
+- **color** - changes the color of the text
+- **font-weight** - changes the boldiness of the text
+- **font-size** - changes the size of the text
+- **font-family** - changes the typeface of the text
+
+<details>
+<summary>Example of use:</summary>
+
+```css
+h1 {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+```
+
+</details>
+
+> Tips/Conventions:
+> 
+> - Font size meanings:
+> <table>
+>  <thead>
+>    <th align=center>1px</th>
+>    <th align=center>1pt</th>
+>    <th align=center>1em</th>
+>    <th align=center>1rem</th>
+>  </thead>
+>  <tbody>
+>    <tr>
+>      <td colspan=2 align=center>static sizing</td>
+>      <td colspan=2 align=center>relative sizing</td>
+>     </tr>
+>     <tr>
+>       <td>1/96 of an inch</td>
+>       <td>1/72 of an inch</td>
+>       <td>
+>         100% of the width of the letter "m"<br>
+>         compared relatively to the parent element
+>       </td>
+>       <td>
+>         100% of the width of the letter "m"<br>
+>         compared relatively to the html/root element
+>       </td>
+>     </tr>
+>   </tbody>
+> </table>
+>
+> - Whenever defining a font-family, always remember to add a generic typeface that matches the selected fontface, so websites can be rendered normaly in cases where a specific fontface is not found on the user's computer.
+> - Fonts which names are formed by multiple words, the name inside quatation marks, such as:
+>```css
+> h1{
+>  font-family: "Times New Roman", serif
+> }
+>```
+
+<hr>
+<br>
+
 
