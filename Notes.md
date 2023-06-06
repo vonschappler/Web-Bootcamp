@@ -803,7 +803,7 @@ h1 {
 </details>
 
 > Tips/Conventions:
-> 
+>
 > - Font size meanings:
 > <table>
 >  <thead>
@@ -834,13 +834,85 @@ h1 {
 >
 > - Whenever defining a font-family, always remember to add a generic typeface that matches the selected fontface, so websites can be rendered normaly in cases where a specific fontface is not found on the user's computer.
 > - Fonts which names are formed by multiple words, the name inside quatation marks, such as:
->```css
-> h1{
->  font-family: "Times New Roman", serif
+>
+> ```css
+> h1 {
+>   font-family: 'Times New Roman', serif;
 > }
->```
+> ```
 
 <hr>
 <br>
 
+### Box-model:
 
+Each element in HTML exists inside a box. This box is defined basically by 5 properties:
+
+1. **Width**: how "thick" the box is
+2. **Height**: how "tall" the box is
+3. **Padding**: the internal margin inside of the box
+4. **Border**: the contour of the box around the composite sum of measures given by `width + height + padding`
+5. **Margin**: the external marding to separate one box from the other
+
+Using CSS, the box model would like something similar to:
+
+```css
+h1 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 10px solid black;
+  margin: 20px;
+}
+```
+
+The code above, creats a square h1 element, with the total of 300px on each side.
+
+> Tips/Conventions:
+>
+> - To define a border, it's required 3 arguments: the thickness of the border in pixels, the style of the border and the color of the border
+> - It's possible to further customize a border, by adding definitions to each side after the main boder definition. In CSS it would look like to:
+>
+> ```css
+> h1 {
+>   border: 10px solid black;
+>   border-top: 0;
+>   border-right: 10px;
+>   border-bottom: 20px;
+>   border-left: 30px;
+> }
+> ```
+>
+> - The code above can be also written on a different way, as displayed below:
+>
+> ```css
+> h1 {
+>   border: 10px solid black;
+>   border-width: 0px 10px 20px 30px;
+> }
+> ```
+>
+> - It's possible to use border width also in two different ways:
+>
+> ```css
+> h1 {
+>   border-width: 10px 20px;
+> /*
+>   this specifies the value of the top and bottom borders to 10px
+>   and left and right to 20px
+> */
+> }
+> h2 {
+>   border-width: 10px 20px 40px
+> }
+> /*
+>   this specifies the value of the top to 10px
+>   the left and right to 20px
+>   and the bottom to 40 px
+> */
+> ```
+>
+> - Padding and margin properties also can be set on the same way as done with ``border-width``, when using multple values to define them.
+
+<hr>
+<br>
