@@ -742,3 +742,12 @@ will return the following result:
 
 </details>
 <br>
+
+## Section_06:
+
+### CSS colors:
+
+ - Named colors - colors where the name is used to set a color property
+ - Hex colors - colors where the color is represented by a HEX code as for example #FF73AB
+ - RGB colors - colors where the color is represented in a matrix of 3 values (red, green and blue). Each value stars on 0 and ends on 255, as for example rgb(200, 30, 20)
+
