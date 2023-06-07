@@ -742,6 +742,8 @@ will return the following result:
 <img src='https://media.discordapp.net/attachments/500413717561868288/1111717061501132940/image.png' alt='preview 09'>
 
 </details>
+
+<hr>
 <br>
 
 ## Section_06:
@@ -916,3 +918,28 @@ The code above, creats a square h1 element, with the total of 300px on each side
 
 <hr>
 <br>
+
+## Section_07:
+
+### CSS Cascade:
+
+A single element can have multiple styles applied to it. When there are conflicting CSS rules, a "cascade" rule is used to define the hierarchy of which will be the final rule to be rendered on screen.
+
+- First hierarchy rule:
+  - **Position**: the rules are applied based on their position in the overall CSS definition, being the last one to be read by the browser the rule to be rendered on scree.
+
+- Second hierarchy rule: 
+  - **Specificity**: the styles are applied in order of specificty
+    1. Elements
+    1. Classes
+    1. Ids 
+  
+  This means that rules applied to Ids will get rendred above classes, while classes will be rendered above elements
+
+- Third hierarchy rule:
+  - **Type of the CSS rule**: the styles by their definition type
+    1. External CSS file
+    2. Internal CSS definition
+    3. Inline CSS definition
+    
+  This means that what will be rendered on screen will be the the last rule in the order 
