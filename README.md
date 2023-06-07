@@ -82,14 +82,28 @@ The fourth project completed can be found [here](https://vonschappler.github.io/
 
 ## Section_06:
 
-This section introduces the concepts of **intermediate CSS**.
+This section introduces the concepts of **CSS properties**.
 
 Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_06).
 
 <details>
 <summary>Project Motivational Meme Poster:</summary>
 
-The fifth  project completed can be found [here](https://vonschappler.github.io/Web-Bootcamp/Projects/MotivationalPoster/index.html).
+The fifth project completed can be found [here](https://vonschappler.github.io/Web-Bootcamp/Projects/MotivationalPoster/index.html).
+
+</details>
+<hr>
+
+## Section_07:
+
+This section introduces the concepts of **intermediate CSS**.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/blob/main/Notes.md#section_07).
+
+<details>
+<summary>Project CSS flag:</summary>
+
+The sixth project completed can be found [here](https://vonschappler.github.io/Web-Bootcamp/Projects/CSS-Flag/index.html).
 
 </details>
 <hr>
