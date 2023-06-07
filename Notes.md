@@ -931,8 +931,9 @@ A single element can have multiple styles applied to it. When there are conflict
 - Second hierarchy rule: 
   - **Specificity**: the styles are applied in order of specificty
     1. Elements
-    1. Classes
-    1. Ids 
+    2. Classes
+    3. Elements with attributes
+    4. Ids 
   
   This means that rules applied to Ids will get rendred above classes, while classes will be rendered above elements
 
@@ -942,4 +943,7 @@ A single element can have multiple styles applied to it. When there are conflict
     2. Internal CSS definition
     3. Inline CSS definition
     
-  This means that what will be rendered on screen will be the the last rule in the order 
+  This means that what will be rendered on screen will be the the last rule in the order
+
+- Fourth hierarchy rule:
+  - **Importance**: the rules are applied by using the special word ``!important``, no matter where it's positioned.
