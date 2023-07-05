@@ -899,13 +899,13 @@ The code above, creats a square h1 element, with the total of 300px on each side
 > ```css
 > h1 {
 >   border-width: 10px 20px;
-> /*
+>   /*
 >   this specifies the value of the top and bottom borders to 10px
 >   and left and right to 20px
 > */
 > }
 > h2 {
->   border-width: 10px 20px 40px
+>   border-width: 10px 20px 40px;
 > }
 > /*
 >   this specifies the value of the top to 10px
@@ -914,7 +914,7 @@ The code above, creats a square h1 element, with the total of 300px on each side
 > */
 > ```
 >
-> - Padding and margin properties also can be set on the same way as done with ``border-width``, when using multple values to define them.
+> - Padding and margin properties also can be set on the same way as done with `border-width`, when using multple values to define them.
 
 <hr>
 <br>
@@ -926,24 +926,90 @@ The code above, creats a square h1 element, with the total of 300px on each side
 A single element can have multiple styles applied to it. When there are conflicting CSS rules, a "cascade" rule is used to define the hierarchy of which will be the final rule to be rendered on screen.
 
 - First hierarchy rule:
+
   - **Position**: the rules are applied based on their position in the overall CSS definition, being the last one to be read by the browser the rule to be rendered on scree.
 
-- Second hierarchy rule: 
+- Second hierarchy rule:
+
   - **Specificity**: the styles are applied in order of specificty
     1. Elements
     2. Classes
     3. Elements with attributes
-    4. Ids 
-  
+    4. Ids
+
   This means that rules applied to Ids will get rendred above classes, while classes will be rendered above elements
 
 - Third hierarchy rule:
+
   - **Type of the CSS rule**: the styles by their definition type
     1. External CSS file
     2. Internal CSS definition
     3. Inline CSS definition
-    
+
   This means that what will be rendered on screen will be the the last rule in the order
 
 - Fourth hierarchy rule:
-  - **Importance**: the rules are applied by using the special word ``!important``, no matter where it's positioned.
+  - **Importance**: the rules are applied by using the special word `!important`, no matter where it's positioned.
+
+### Combined Selectors:
+
+Combining selectors helps to select even more specific elements.
+
+Below there is a list of the most common ways of combining selectors:
+
+- Group selector (`, `)
+
+Applies the rules to all elements selected by the rule separated by comma.
+
+> ```css
+> selector1,
+> selector2 {
+>   rule: value;
+> }
+> ```
+
+- (Direct) Child selector (`> `)
+
+Applie the rule to the direct child of selector1 defined by selector2.
+
+> ```css
+> selector1 > selector2 {
+>   rule: value;
+> }
+> ```
+
+- Decendance selector (``` `):
+
+Applies the rules to all elements defined by **selector2** which are enclosed by **selector1**, no matter the level of descendance it has.
+
+> ```css
+> selector_1 selector2 {
+>   rule: value;
+> }
+> ```
+
+- Chaining selector:
+
+Applies the rules to all elements which match the selectors defined.
+
+> ```css
+> selector1selector2 {
+>   rule: value;
+> }
+> ```
+
+Selectors are not separated by any space or special symbols and when one of the selectors is an element, the element should comes first while writing the rule, for example:
+
+> ```css
+> h1#title.huge {
+>   color: red;
+> }
+> ```
+
+It's important to note that we can write even more complex and specific rules by combining the combiers among them, for example:
+
+> ```css
+> ul p.small {
+>    color: blue;
+> }
+> ```
