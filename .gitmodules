@@ -1,0 +1,3 @@
+[submodule "Projects/01_movie_ranking"]
+	path = Projects/01_movie_ranking
+	url = https://github.com/vonschappler/movie-ranking.git
