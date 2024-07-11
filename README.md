@@ -24,15 +24,15 @@ This section is dedicated into teaching basic concepts of HTML.
 Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Introduction-to-HMTL).
 
 <details>
-<summary>Exercise 01: heading elements</summary>
+<summary>Exercise 01: Heading Elements</summary>
 
-The code for the completed exercise can be found [here](Section_02/01_heading_element/).
+The code for the completed exercise can be found [here](Section_02/01_heading_elements/).
 
 </details>
 <details>
 <summary>Exercise 02: Paragraph Elements</summary>
 
-The code for the completed exercise can be found [here](Section_02/02_paragraph_element/).
+The code for the completed exercise can be found [here](Section_02/02_paragraph_elements/).
 
 </details>
 <details>
@@ -43,9 +43,52 @@ The code for the completed exercise can be found [here](Section_02/03_void_eleme
 </details>
 <details>
 
-<summary>Project Movie Ranking</summary>
+<summary>Exercise 04: Movie Ranking</summary>
 
-The code for the project completed can be found [here](Projects/01_movie_ranking/).
+The code for the completed exercise can be found [here](Section_02/04_movie_ranking/).
+
+</details>
+
+<hr>
+<br>
+
+## 3. Intermediate HTML:
+
+This section is focused into explaning some other tags used frequently when working with HTML.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Intermediate-HMTL).
+
+<details>
+<summary>Exercise 01: List Elements</summary>
+
+The code for the completed exercise can be found [here](Section_03/01_list_elements/).
+
+</details>
+<details>
+<summary>Exercise 02: Nesting</summary>
+
+The code for the completed exercise can be found [here](Section_03/02_nesting_elements/).
+
+</details>
+<details>
+<summary>Exercise 03: Anchor Elements</summary>
+
+The code for the completed exercise can be found [here](Section_03/03_anchor_elements/).
+
+</details>
+<details>
+
+<summary>Exercise 04: Image Elements</summary>
+
+The code for the completed exercise can be found [here](Section_03/04_image_elements/).
+
+</details>
+
+<details>
+
+<summary>Exercise 05: Birthday Invite</summary>
+
+The code for the completed exercise can be found [here](Section_03/05_birthday_invite/).
 
 </details>
 
