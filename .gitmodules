@@ -1,0 +1,3 @@
+[submodule "Projects/01_online_resume"]
+	path = Projects/01_online_resume
+	url = https://github.com/vonschappler/online-resume.git
