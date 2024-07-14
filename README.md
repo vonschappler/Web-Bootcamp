@@ -123,7 +123,7 @@ The code for the completed exercise can be found [here](Section_04/03_portifolio
 
 <summary>Capstone Project: Online Resume</summary>
 
-The code for the completed exercise can be found [here](Projects/01_online_resume/).
+The code for the completed exercise can be found [here](Section_04/04_online_resume/).
 
 </details>
 
