@@ -95,6 +95,41 @@ The code for the completed exercise can be found [here](Section_03/05_birthday_i
 <hr>
 <br>
 
+## 4. Multi-page Websites:
+
+This section is focused into explaning some other tags used frequently when working with HTML.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Multi-page-Websites).
+
+<details>
+<summary>Exercise 01: Files Path Navigation</summary>
+
+The code for the completed exercise can be found [here](Section_04/01_file_paths/).
+
+</details>
+<details>
+<summary>Exercise 02: Creating Webpages</summary>
+
+The code for the completed exercise can be found [here](Section_04/02_webpages/).
+
+</details>
+<details>
+<summary>Exercise 03: Personal Portifolio</summary>
+
+The code for the completed exercise can be found [here](Section_04/03_portifolio/).
+
+</details>
+<details>
+
+<summary>Capstone Project: Online Resume</summary>
+
+The code for the completed exercise can be found [here](Projects/01_online_resume/).
+
+</details>
+
+<hr>
+<br>
+
 <!-- ## 3. Working with Components, Props and JSX
 
 This section is focused on presenting the concepts of Components, Props and JSX used by React.
