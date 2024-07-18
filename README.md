@@ -130,6 +130,34 @@ The code for the completed exercise can be found [here](Section_04/04_online_res
 <hr>
 <br>
 
+## 5. Introduction to CSS:
+
+This section is focused into explaining the basic concetps of CSS, used for styling websites.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Introduction-to-CSS).
+
+<details>
+<summary>Exercise 01: Adding CSS to Websites</summary>
+
+The code for the completed exercise can be found [here](Section_05/01_adding_css/).
+
+</details>
+<details>
+<summary>Exercise 02: CSS selectors</summary>
+
+The code for the completed exercise can be found [here](Section_05/02_css_selectors/).
+
+</details>
+<details>
+<summary>Exercise 03: CSS Color Vocabulary</summary>
+
+The code for the completed exercise can be found [here](Section_05/03_color_vocab/).
+
+</details>
+
+<hr>
+<br>
+
 <!-- ## 3. Working with Components, Props and JSX
 
 This section is focused on presenting the concepts of Components, Props and JSX used by React.
