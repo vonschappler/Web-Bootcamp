@@ -158,6 +158,40 @@ The code for the completed exercise can be found [here](Section_05/03_color_voca
 <hr>
 <br>
 
+## 6. CSS Properties:
+
+This section provides more details about some of the most used and important CSS properties.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/CSS-Properties).
+
+<details>
+<summary>Exercise 01: CSS Colors</summary>
+
+The code for the completed exercise can be found [here](Section_06/01_css_colors/).
+
+</details>
+<details>
+<summary>Exercise 02: Font Properties</summary>
+
+The code for the completed exercise can be found [here](Section_06/02_font_properties/).
+
+</details>
+<details>
+<summary>Exercise 03: CSS Box Model</summary>
+
+The code for the completed exercise can be found [here](Section_06/03_css_box_model/).
+
+</details>
+<details>
+<summary>Exercise 04: Motivational Post</summary>
+
+The code for the completed exercise can be found [here](Section_06/04_motivational_post/).
+
+</details>
+
+<hr>
+<br>
+
 <!-- ## 3. Working with Components, Props and JSX
 
 This section is focused on presenting the concepts of Components, Props and JSX used by React.
