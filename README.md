@@ -192,6 +192,40 @@ The code for the completed exercise can be found [here](Section_06/04_motivation
 <hr>
 <br>
 
+## 7. Intermediate CSS:
+
+This section provides more details about intermediate CSS rules, such as combining selectors and positioning elements with CSS.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Intermediate-CSS).
+
+<details>
+<summary>Exercise 01: CSS Cascase</summary>
+
+The code for the completed exercise can be found [here](Section_07/01_css_cascade/).
+
+</details>
+<details>
+<summary>Exercise 02: Combining Selectors</summary>
+
+The code for the completed exercise can be found [here](Section_07/02_combining_selectors/).
+
+</details>
+<details>
+<summary>Exercise 03: CSS Positioning</summary>
+
+The code for the completed exercise can be found [here](Section_07/03_css_positioning/).
+
+</details>
+<details>
+<summary>Exercise 04: Flag Project</summary>
+
+The code for the completed exercise can be found [here](Section_07/04_flag_project/).
+
+</details>
+
+<hr>
+<br>
+
 <!-- ## 3. Working with Components, Props and JSX
 
 This section is focused on presenting the concepts of Components, Props and JSX used by React.
