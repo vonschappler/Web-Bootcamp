@@ -199,7 +199,7 @@ This section provides more details about intermediate CSS rules, such as combini
 Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Intermediate-CSS).
 
 <details>
-<summary>Exercise 01: CSS Cascase</summary>
+<summary>Exercise 01: CSS Cascade</summary>
 
 The code for the completed exercise can be found [here](Section_07/01_css_cascade/).
 
@@ -220,6 +220,46 @@ The code for the completed exercise can be found [here](Section_07/03_css_positi
 <summary>Exercise 04: Flag Project</summary>
 
 The code for the completed exercise can be found [here](Section_07/04_flag_project/).
+
+</details>
+
+<hr>
+<br>
+
+## 8. Advanced CSS:
+
+This section provides more details over some advanced CSS rules, which among them, the use of the display and float properties and how to use media queries to create responsive websites.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Advanced-CSS).
+
+<details>
+<summary>Exercise 01: CSS Display</summary>
+
+The code for the completed exercise can be found [here](Section_08/01_css_display/).
+
+</details>
+<details>
+<summary>Exercise 02: CSS Float</summary>
+
+The code for the completed exercise can be found [here](Section_08/02_css_float/).
+
+</details>
+<details>
+<summary>Exercise 03: Responsive Website</summary>
+
+The code for the completed exercise can be found [here](Section_08/03_responsive_website/).
+
+</details>
+<details>
+<summary>Exercise 04: Media Queries</summary>
+
+The code for the completed exercise can be found [here](Section_08/04_media_query/).
+
+</details>
+<details>
+<summary>Exercise 05: Web Agency Site</summary>
+
+The code for the completed exercise can be found [here](Section_08/05_web_design_project/).
 
 </details>
 
