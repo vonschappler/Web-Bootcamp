@@ -266,6 +266,34 @@ The code for the completed exercise can be found [here](Section_08/05_web_design
 <hr>
 <br>
 
+## 8. Flexbox:
+
+This section details how to created responsive layouts using CSS flexboxes.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Flexbox).
+
+<details>
+<summary>Exercise 01: CSS Display</summary>
+
+The code for the completed exercise can be found [here](Section_09/01_display_flex/).
+
+</details>
+<details>
+<summary>Exercise 02: Flex Direction</summary>
+
+The code for the completed exercise can be found [here](Section_09/02_flex_direction/).
+
+</details>
+<details>
+<summary>Exercise 03: Pricing Table</summary>
+
+The code for the completed exercise can be found [here](Section_09/03_pricing_table/).
+
+</details>
+
+<hr>
+<br>
+
 <!-- ## 3. Working with Components, Props and JSX
 
 This section is focused on presenting the concepts of Components, Props and JSX used by React.
