@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /*
+      Write your CSS here
+      Gap Colour: #000
+      White: #F0F1EC
+      Red: #E72F24
+      Black: #232629
+      Blue: #004592
+      Yellow: #F9D01E
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mondrian Project</title>
-  <style>
-    /* 
-    Write your CSS here 
-    Gap Colour: #000
-    White: #F0F1EC
-    Red: #E72F24
-    Black: #232629
-    Blue: #004592
-    Yellow: #F9D01E
+      For dimensions, see dimensions.png image.
+      HINT: Remember you can't change the properties of grid lines.
+      But grid lines are transparent!
+      */
+      .container {
+        display: grid;
+        grid-template-columns: auto 198px 153px 50px;
+        grid-template-rows: 414px 130px auto 20px;
+        background-color: #000;
+        width: 748px;
+        height: 748px;
+        gap: 9px;
+      }
+      .red {
+        background-color: #e72f24;
+        grid-column: 0;
+      }
+      .yellow {
+        background-color: #f9d01e;
+        grid-column: 2/3;
+        grid-row: 4/5;
+      }
+      .blue {
+        background-color: #004592;
+        grid-column: 4/5;
+        grid-row: 2/3;
+        border-bottom: solid 10px;
+      }
+      .white {
+        background-color: #f0f1ec;
+      }
+      .black {
+        background-color: #232629;
+        grid-row: 4/5;
+        grid-column: 3/4;
+      }
+      .one {
+        grid-column: 2/5;
+      }
+      .two,
+      .three {
+        grid-row: 2/4;
+      }
+      .three {
+        grid-column: 2/4;
+      }
+      .four {
+        grid-row: 3/5;
+      }
+    </style>
+  </head>
 
-    For dimensions, see dimensions.png image.
-    HINT: Remember you can't change the properties of grid lines.
-    But grid lines are transparent!
-    */
-  </style>
-</head>
-
-<body>
-  <!-- Write your HTML here -->
-</body>
-
+  <body>
+    <!-- Write your HTML here -->
+    <div class="container">
+      <div class="red"></div>
+      <div class="yellow"></div>
+      <div class="blue"></div>
+      <div class="black"></div>
+      <div class="white one"></div>
+      <div class="white two"></div>
+      <div class="white three"></div>
+      <div class="white four"></div>
+      <div class="white"></div>
+      <!-- <div class="white four"></div> -->
+    </div>
+  </body>
 </html>
