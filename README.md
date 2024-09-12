@@ -266,14 +266,14 @@ The code for the completed exercise can be found [here](Section_08/05_web_design
 <hr>
 <br>
 
-## 8. Flexbox:
+## 9. Flexbox:
 
 This section details how to created responsive layouts using CSS flexboxes.
 
 Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Flexbox).
 
 <details>
-<summary>Exercise 01: CSS Display</summary>
+<summary>Exercise 01: Flex Display</summary>
 
 The code for the completed exercise can be found [here](Section_09/01_display_flex/).
 
@@ -288,6 +288,40 @@ The code for the completed exercise can be found [here](Section_09/02_flex_direc
 <summary>Exercise 03: Pricing Table</summary>
 
 The code for the completed exercise can be found [here](Section_09/03_pricing_table/).
+
+</details>
+
+<hr>
+<br>
+
+## 10. Grid:
+
+This section details how to created responsive layouts using CSS grid.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Grid).
+
+<details>
+<summary>Exercise 01: Grid Display</summary>
+
+The code for the completed exercise can be found [here](Section_10/01_display_grid/).
+
+</details>
+<details>
+<summary>Exercise 02: Grid Sizing</summary>
+
+The code for the completed exercise can be found [here](Section_10/02_grid_sizing/).
+
+</details>
+<details>
+<summary>Exercise 03: Grid Placement</summary>
+
+The code for the completed exercise can be found [here](Section_10/03_grid_placement/).
+
+</details>
+<details>
+<summary>Exercise 04: Mondrian Art</summary>
+
+The code for the completed exercise can be found [here](Section_10/04_mondrian_art/).
 
 </details>
 
