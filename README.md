@@ -328,6 +328,34 @@ The code for the completed exercise can be found [here](Section_10/04_mondrian_a
 <hr>
 <br>
 
+## 11. Bootstrap:
+
+This section details how to created responsive layouts using CSS grid.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Bootstrap).
+
+<details>
+<summary>Exercise 01: Introduction to Bootstrap</summary>
+
+The code for the completed exercise can be found [here](Section_11/01_bootstrap_intro/).
+
+</details>
+<details>
+<summary>Exercise 02: Bootstrap components</summary>
+
+The code for the completed exercise can be found [here](Section_11/02_bootstrap_components/).
+
+</details>
+<details>
+<summary>Exercise 03: TinDog website</summary>
+
+The code for the completed exercise can be found [here](Section_11/03_tin_dog/).
+
+</details>
+
+<hr>
+<br>
+
 <!-- ## 3. Working with Components, Props and JSX
 
 This section is focused on presenting the concepts of Components, Props and JSX used by React.
