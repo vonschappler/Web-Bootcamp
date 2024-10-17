@@ -372,6 +372,23 @@ A preview of the designed website can be seen [here](https://www.canva.com/desig
 <hr>
 <br>
 
+## 13 Personal Website project:
+
+This section is focused into creating a personal website project, using HTML and CSS.
+
+There are no relevant notes for this section.
+
+<details>
+
+<summary>Capstone Project: Personal Website</summary>
+
+The code for the completed exercise can be found [here](Section_13/01_personal_website/).
+
+</details>
+
+<hr>
+<br>
+
 <!-- ## 3. Working with Components, Props and JSX
 
 This section is focused on presenting the concepts of Components, Props and JSX used by React.
