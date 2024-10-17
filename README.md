@@ -2,7 +2,7 @@
 
 This course is organized into a "folder per section" structure, where each section which contains code has its own folder. Any course resources/materials provided were not pushed to the repository.
 
-What is published here is the result of the code produced on each class, with their commits to match what was done on them. For detailed personal notes taken during the classes, check the [wiki](https://github.com/vonschappler/Web-Bootcamp/wiki/Web-Bootcamp)
+What is published here is the result of the code produced on each class, with their commits to match what was done on them. For detailed personal notes taken during the classes, check the [wiki](https://github.com/vonschappler/Web-Bootcamp/wiki/Introduction)
 
 <hr>
 
@@ -350,6 +350,22 @@ The code for the completed exercise can be found [here](Section_11/02_bootstrap_
 <summary>Exercise 03: TinDog website</summary>
 
 The code for the completed exercise can be found [here](Section_11/03_tin_dog/).
+
+</details>
+
+<hr>
+<br>
+
+## 12. Web Design School:
+
+This section gives insights on how to design a website as well as it details some theory about the subject.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Web-Bootcamp/wiki/Webdesign-School).
+
+<details>
+<summary>Exercise 01: Designing a Website</summary>
+
+A preview of the designed website can be seen [here](https://www.canva.com/design/DAGT08Qzu5w/P-ls99_LwGaHpYI4SmGe3g/view?utm_content=DAGT08Qzu5w&utm_campaign=designshare&utm_medium=link&utm_source=editor).
 
 </details>
 
