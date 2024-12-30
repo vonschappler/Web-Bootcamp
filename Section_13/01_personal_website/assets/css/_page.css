@@ -1,0 +1,16 @@
+#page {
+  display: flex;
+  flex-direction: column;
+  height: 100% !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: none;
+  & code {
+    font-family: monospace;
+    font-size: large;
+    font-weight: 900;
+    background-color: rgba(var(--dark-gray, 255, 0, 0), 0.2);
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.2rem;
+  }
+}

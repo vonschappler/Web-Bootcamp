@@ -1,0 +1,126 @@
+#hero {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  color: rgb(var(--light-gray, 255, 0, 0));
+  background-color: rgb(var(--dark-gray, 255, 0, 0));
+  height: max(50dvh, 450px);
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 500ms;
+  /* background-color: #fff; */
+  & #bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    overflow: hidden;
+  }
+  & .code-img {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: 25dvw;
+    filter: blur(3px);
+    object-fit: cover;
+    object-position: center;
+    animation: slide-in-right-100 3s ease-in-out;
+    mask: var(--gradient-left-right);
+  }
+  & #presentation {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    /* background: red; */
+    z-index: 20;
+    gap: 1rem;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    & .overlay {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      background-color: rgb(var(--dark-gray, 255, 0, 0), 0.6);
+      border-radius: 25px;
+      box-shadow: var(--shadow-light, 0 0 5px #f00);
+      padding: 2rem;
+      padding-bottom: 1rem;
+      animation: slide-up-200 3s;
+      gap: 0.75rem;
+      & .waving {
+        display: inline-block;
+        animation: waving 1s infinite ease-in-out;
+        transform-origin: center bottom;
+      }
+    }
+    & button {
+      text-decoration: none;
+      padding: 1rem;
+      margin-top: 1rem;
+      color: rgb(var(--light-gray, 255, 0, 0));
+      border-radius: 10px;
+      transition: all;
+      transition-duration: 300ms;
+      line-height: 1rem;
+      z-index: 20;
+      width: fit-content;
+      align-self: end;
+      animation: slide-up-100 3s ease-in-out;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-family: var(--font-title, sans-serif);
+      font-size: 1rem;
+      font-weight: 900;
+      &:hover {
+        color: rgb(var(--dark-gray, 255, 0, 0));
+        box-shadow: var(--shadow, 0 0 5px #f00);
+        scale: 105%;
+        background-color: rgb(var(--light-gray, 255, 0, 0));
+        font-weight: 900;
+      }
+    }
+  }
+  & .profile-img-placeholder {
+    border-radius: 25px;
+    animation: slide-in-left-200 3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 500ms ease;
+    width: 250px;
+    height: 250px;
+    & .profile-img {
+      transition: all ease 500ms;
+      transform: translateX(0);
+      display: flex;
+      & img {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+    & .profile-img:hover {
+      transform: translateX(-100%);
+      filter: grayscale();
+    }
+    &:hover {
+      border-radius: 50%;
+    }
+  }
+  & .animated-text::after {
+    font-family: var(--font-title, sans-serif);
+    font-weight: 900;
+    content: 'a brand creator';
+    animation: subtitle-change 10s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+  }
+}

@@ -1,0 +1,14 @@
+img {
+  &.float {
+    height: var(--height, 2rem);
+    width: var(--width, 3rem);
+    &.left {
+      float: left;
+      margin-right: 20px;
+    }
+    &.right {
+      float: right;
+      margin-left: 20px;
+    }
+  }
+}

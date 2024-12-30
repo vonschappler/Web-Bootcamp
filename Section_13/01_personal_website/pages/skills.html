@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>von Schappler's Website // Skills</title>
+    <link rel="stylesheet" href="../assets/css/index.css" />
+  </head>
+  <body>
+    <div id="page">
+      <dialog id="disclaimer-dlg" class="disclaimer">
+        <div class="content">
+          <h2>
+            Disclaimer
+            <hr />
+          </h2>
+          <p class="small">
+            This website was created just for learning purposes. It uses
+            experimental features for <code>HTML</code> and <code>CSS</code> and
+            it may not be displayed correctly if this not viewed on
+            <strong>Google Chrome</strong> based browsers.
+          </p>
+          <form method="dialog">
+            <button>Understood</button>
+          </form>
+        </div>
+      </dialog>
+      <div id="disclaimer-div" class="disclaimer" popover>
+        <div class="content">
+          <h2>
+            Disclaimer
+            <hr />
+          </h2>
+          <p class="small">
+            This website was created just for learning purposes. It uses
+            experimental features for <code>HTML</code> and <code>CSS</code> and
+            it may not be displayed correctly if this not viewed on
+            <strong>Google Chrome</strong> based browsers.
+          </p>
+          <button popovertarget="disclaimer-div">Understood</button>
+        </div>
+      </div>
+      <div id="top"></div>
+      <nav>
+        <div class="scroller">
+          <div class="scroller-inner"></div>
+        </div>
+        <div id="nav-button-container">
+          <button id="nav-button" popovertarget="nav-button-links">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div id="nav-button-links" class="nav-button-links" popover>
+            <a href="../index.html#top">
+              <button
+                popovertarget="nav-button-links"
+                popoveraction="hide"
+                class="nav-link"
+              >
+                <i class="fa-solid fa-house"></i>Home
+              </button>
+            </a>
+            <a>
+              <button
+                popovertarget="nav-button-links"
+                popoveraction="hide"
+                class="nav-link"
+                id="active"
+              >
+                <i class="fa-solid fa-code"></i>Skills
+              </button>
+            </a>
+            <a href="../index.html#projects">
+              <button
+                popovertarget="nav-button-links"
+                popoveraction="hide"
+                class="nav-link"
+              >
+                <i class="fa-solid fa-list-check"></i>Projects
+              </button>
+            </a>
+            <a href="../index.html#contact">
+              <button
+                popovertarget="nav-button-links"
+                popoveraction="hide"
+                class="nav-link"
+              >
+                <i class="fa-solid fa-envelope"></i>Contact
+              </button>
+            </a>
+          </div>
+        </div>
+        <div id="nav-links">
+          <a href="../index.html#top" class="nav-link">
+            <i class="fa-solid fa-house"></i>Home
+          </a>
+          <a href="#skills" class="nav-link" id="active">
+            <i class="fa-solid fa-code"></i>Skills
+          </a>
+          <a href="../index.html#projects" class="nav-link">
+            <i class="fa-solid fa-list-check"></i>Projects
+          </a>
+          <a href="../index.html#contact" class="nav-link">
+            <i class="fa-solid fa-envelope"></i>Contact
+          </a>
+          <button
+            popovertarget="disclaimer-div"
+            role="button"
+            class="nav-link"
+            popoveraction="show"
+          >
+            View disclaimer
+          </button>
+        </div>
+      </nav>
+      <main>
+        <div id="hero">
+          <div id="presentation">
+            <div class="overlay">
+              <h1><span class="waving">🖐️</span> Hello!</h1>
+              <h2>My name is von Schappler</h2>
+              <h2 class="subtitle">
+                I am
+                <span class="animated-text"></span>
+              </h2>
+              <button popovertarget="aboutMe">About me</button>
+            </div>
+          </div>
+          <div id="bg-img">
+            <img
+              src="../assets/imgs/code.png"
+              alt="code background"
+              class="code-img"
+            />
+          </div>
+        </div>
+      </main>
+      <footer id="contact">
+        <div class="col-3">
+          <div class="footer-section">
+            <h3>Social Links</h3>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+          </div>
+          <div class="footer-section">
+            <h3>Social Links</h3>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+          </div>
+          <div class="footer-section">
+            <h3>Social Links</h3>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+        <div id="copyright">
+          <hr />
+          <span>
+            Disclaimer: This website is better visualized on Chrome based
+            browsers - it uses experimental technologies.
+          </span>
+          <span>&copy; von Schappler &bull; 2024</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

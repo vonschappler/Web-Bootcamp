@@ -1,0 +1,75 @@
+.modal {
+  position: absolute;
+  display: none;
+  margin: auto;
+  opacity: 0;
+  scale: 0;
+  transition: all 750ms;
+  transition-behavior: allow-discrete;
+  flex-direction: column !important;
+  border: none;
+  box-shadow: var(--shadow);
+  z-index: 200;
+  overflow: hidden;
+  height: 75dvh;
+  width: 80%;
+  border-radius: 1rem;
+  &:popover-open {
+    display: flex;
+    flex-direction: column;
+    scale: 1;
+    opacity: 1;
+    @starting-style {
+      display: flex;
+      flex-direction: column !important;
+      opacity: 0;
+      scale: 0;
+    }
+    &::backdrop {
+      background-color: rgba(var(--dark-gray), 0.8);
+      backdrop-filter: blur(5px);
+    }
+  }
+  & .modal-header {
+    display: flex;
+    background-color: rgb(var(--dark-gray));
+    position: sticky;
+    top: 0;
+    box-shadow: var(--shadow, 0 0 5px #f00);
+    padding: 1rem 1rem;
+    align-items: start;
+    & h2 {
+      color: rgb(var(--light-gray));
+      width: 100%;
+    }
+    & .close-button {
+      float: inline-end;
+      margin-inline-start: 2rem;
+      border: none;
+      background-color: rgb(var(--dark-gray), 0.8);
+      color: rgb(var(--light-gray));
+      justify-self: end;
+      cursor: pointer;
+      animation: slide-up-100 1.5s ease-in-out;
+      padding: 0.5rem;
+    }
+  }
+  & .content {
+    padding: 1.5rem;
+    background-color: rgb(var(--light-gray, 255, 0, 0));
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-y: scroll;
+    line-height: 1.5rem;
+    &::-webkit-scrollbar {
+      width: 8px !important;
+    }
+    &::-webkit-scrollbar-track-piece {
+      background: rgb(var(--dark-gray, 255, 0, 0));
+    }
+    &::-webkit-scrollbar-thumb {
+      background: rgb(var(--teal, 255, 0, 0));
+    }
+  }
+}

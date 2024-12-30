@@ -1,0 +1,93 @@
+@import './_vars.css';
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-margin: 5rem;
+  font-family: var(--font-page, sans-serif);
+}
+body {
+  background-color: rgb(var(--light-gray, 255, 0, 0));
+  color: rgb(var(--dark-gray, 255, 0, 0));
+  line-height: 2.5rem;
+  overflow: hidden !important;
+  height: 100dvh;
+}
+h1,
+h2,
+a {
+  font-family: var(--font-title, sans-serif);
+}
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.5rem;
+}
+a {
+  font-weight: 900;
+}
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: rgb(var(--light-gray, 255, 0, 0));
+  anchor-name: --section-anchor;
+  & section {
+    width: 80%;
+    margin: 3rem auto;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: var(--shadow, 0 0 5px red);
+    line-height: 1.7rem;
+    gap: 1rem;
+    transition: all 500ms ease-in-out;
+    display: flex;
+    background-color: rgb(var(--light-gray, 255, 0, 0));
+    & article {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      transition: all 500ms ease-in-out;
+      & a {
+        color: rgb(var(--dark-gray, 255, 0, 0));
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+        &.read-more {
+          font-weight: 900;
+          align-self: end;
+          width: fit-content;
+          padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          transition: all 500ms ease;
+          &:hover {
+            background-color: rgb(var(--dark-gray, 255, 0, 0), 0.8);
+            color: rgb(var(--light-gray, 255, 0, 0));
+            font-family: var(--font-title, sans-serif);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    &:nth-of-type(odd):not(.first) {
+      animation: slide-in-left-100 ease-in-out;
+      animation-timeline: view();
+      animation-range: entry -250%;
+    }
+    &:nth-of-type(even):not(.first) {
+      animation: slide-in-right-100 ease-in-out;
+      animation-timeline: view();
+      animation-range: entry -250%;
+    }
+  }
+}

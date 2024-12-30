@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>von Schappler's Website // Welcome</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="aboutMe" class="modal" popover>
+        <div class="modal-header">
+          <h2>About me</h2>
+          <button popovertarget="aboutMe" class="close-button">
+            <i class="fa-solid fa-close"></i>
+          </button>
+        </div>
+        <hr />
+        <div class="content">
+          <p>
+            I am a brazilian autistic individual, born in 1983, when that kind
+            of diagnosis was not something that existed in the way we know about
+            it today. Because of the lack of a proper diagnosis, I wasn't aware
+            about the fact I'm autistic until a few years ago, when my nephew
+            was disgnosed with autism and so was I, by his doctors. The
+            treatment for autism here in Brazil is not something affordable and
+            so, being aknowledge about the fact I'm autsitic just helped me to
+            understand why I have some specific comportamental behavior traces
+            that make me be who I am.
+          </p>
+
+          <p>
+            My hyperfocus is centered into technology and science, and I always
+            work hard to always give into that as much as I can. Because if
+            <img
+              class="float left"
+              style="--height: 10rem; --width: auto"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ibm_px_xt_color.jpg/1280px-Ibm_px_xt_color.jpg"
+            />
+            this, my first contact with a computer was when I was 10 years old,
+            in a school specialized into dealing with gifted individuals (yes,
+            that time, that was the diagnosis I received), where I wrote my
+            first line of code, using <code>Cobol</code> to make a
+            <strong>Pac-Man</strong> game which run from a 5.2" floppy disk in a
+            old IBM computer. <br /><br />
+
+            My Bsc. degree was attained on 2004, when I was 20 years old, on
+            Computational Physics. My main area of work, back in the day, was
+            physical phenomena simulation, with focus into Quantic Chaos, while
+            studing the behavior of sub-atomic particles when those are confined
+            within parabolic magnetic fields, using <code>Maple</code> (a
+            programming language used by
+            <a href="https://www.maplesoft.com" target="_blank">
+              MapleSoft&trade; </a
+            >), <code>C</code> and <code>OpenGL</code>, by creating applications
+            to simulate their movement in a 3d field space. I also have used,
+            when necessary, other programming languages such as
+            <code>Pascal</code>, <code>Java</code> and <code>Fortran</code> for
+            smaller projects when I was still a member of the university
+            students research team.
+          </p>
+          <p>
+            I have also worked with geophysics, while creating data processing
+            routines to optmize the already existing routines used generally by
+            most of the Brazilian prospecting companies, while making use of the
+            languages <code>GCX</code> and <code>GS</code> (used by
+            <strong>Oasis Montaj</strong>, an applcation developed by
+            <a href="https://www.seequent.com" target="_blank">Seequent</a> -
+            formely known as Geosoft ).
+          </p>
+          <p>
+            In 2010 I started streaming on
+            <a href="https://www.twitch.tv/von_schappler" target="_blank"
+              >Twitch</a
+            >, and that pushed me to a different road. That was where while
+            trying to make something that would fit my standards, I learned some
+            new skills to be used into my streams. It was when I started using
+            <code>Python 2.7.13</code> to create add-ons to a chatbot
+            application I use on my streams (<strong>Streamlab Chatbot</strong>)
+            as well I decided taking some courses to work with
+            <strong>graphical design</strong>.
+          </p>
+          <p>
+            From that day, I changed my main field of work from Physics to the
+            graphical design market while also self-learning web development, by
+            reading official documentaion over technologies used for web.
+          </p>
+          <p>
+            In 2023 I decided to start taking online courses so I could attain
+            more knowledge about web development and update / solidify the
+            previous knowledge I had attained by self-learning, while creating a
+            webdev portifolio and obtaning certificates.
+          </p>
+          <p>
+            I also give private classes (over webdev) and have recently starting
+            to work into content creation so I can provide courses into
+            platforms such as Udemy, focusing on my main dev stack
+            (<code>Noje.js</code>, <code>Postgres / Supabase</code>,
+            <code>Material Ui</code>, <code>TailwindCss</code>,
+            <code>React/Next.js</code> and <code>Electron.js</code>).
+          </p>
+          <p>
+            When not working, I take my free time to play some games, to stream
+            (even though I have not streamed in a whike do the amount of work
+            I'm doing recently) or to keep studying and learning more about the
+            things that are related to my hyperfocus.
+          </p>
+        </div>
+      </div>
+      <!-- <dialog id="disclaimer-dlg" class="disclaimer" open> -->
+      <dialog id="disclaimer-dlg" class="disclaimer">
+        <div class="content">
+          <h2>
+            Disclaimer
+            <hr />
+          </h2>
+          <p class="small">
+            This website was created just for learning purposes, using
+            <code>HTML</code> and <code>CSS</code> only. This project uses
+            experimental features for those languages and it may not be
+            displayed correctly if this not viewed on
+            <strong>Google Chrome</strong> based browsers.
+          </p>
+          <form method="dialog">
+            <button>Understood</button>
+          </form>
+        </div>
+      </dialog>
+      <div id="disclaimer-div" class="disclaimer" popover>
+        <div class="content">
+          <h2>
+            Disclaimer
+            <hr />
+          </h2>
+          <p class="small">
+            This website was created just for learning purposes, using
+            <code>HTML</code> and <code>CSS</code> only. This project uses
+            experimental features for those languages and it may not be
+            displayed correctly if this not viewed on
+            <strong>Google Chrome</strong> based browsers.
+          </p>
+          <button popovertarget="disclaimer-div">Understood</button>
+        </div>
+      </div>
+      <a id="top"></a>
+      <nav>
+        <div class="scroller">
+          <div class="scroller-inner"></div>
+        </div>
+        <div id="nav-button-container">
+          <button id="nav-button" popovertarget="nav-button-links">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div id="nav-button-links" class="nav-button-links" popover>
+            <a href="#top">
+              <button
+                popovertarget="nav-button-links"
+                popoveraction="hide"
+                class="nav-link"
+              >
+                <i class="fa-solid fa-house"></i>Home
+              </button>
+            </a>
+            <a href="#skills">
+              <button
+                popovertarget="nav-button-links"
+                popoveraction="hide"
+                class="nav-link"
+              >
+                <i class="fa-solid fa-code"></i>Skills
+              </button>
+            </a>
+            <a href="#projects">
+              <button
+                popovertarget="nav-button-links"
+                popoveraction="hide"
+                class="nav-link"
+              >
+                <i class="fa-solid fa-list-check"></i>Projects
+              </button>
+            </a>
+            <a href="#contact">
+              <button
+                popovertarget="nav-button-links"
+                popoveraction="hide"
+                class="nav-link"
+              >
+                <i class="fa-solid fa-envelope"></i>Contact
+              </button>
+            </a>
+            <button
+              popovertarget="disclaimer-div"
+              role="button"
+              class="nav-link"
+              popoveraction="show"
+            >
+              View disclaimer
+            </button>
+          </div>
+        </div>
+        <div id="nav-links">
+          <a href="#top" class="nav-link">
+            <i class="fa-solid fa-house"></i>Home
+          </a>
+          <a href="#skills" class="nav-link">
+            <i class="fa-solid fa-code"></i>Skills
+          </a>
+          <a href="#projects" class="nav-link">
+            <i class="fa-solid fa-list-check"></i>Projects
+          </a>
+          <a href="#contact" class="nav-link">
+            <i class="fa-solid fa-envelope"></i>Contact
+          </a>
+          <button
+            popovertarget="disclaimer-div"
+            role="button"
+            class="nav-link"
+            popoveraction="show"
+          >
+            View disclaimer
+          </button>
+        </div>
+      </nav>
+      <main>
+        <div id="hero">
+          <div id="presentation">
+            <div class="profile-img-placeholder">
+              <div class="profile-img">
+                <img src="./assets/imgs/profile_A.png" alt="profile von" />
+                <img src="./assets/imgs/Profile_B.png" alt="profile manoel" />
+              </div>
+            </div>
+            <div class="overlay">
+              <h1><span class="waving">🖐️</span> Hello!</h1>
+              <h2>My name is von Schappler</h2>
+              <h2 class="subtitle">
+                I am
+                <span class="animated-text"></span>
+              </h2>
+              <button popovertarget="aboutMe">About me</button>
+            </div>
+          </div>
+          <div id="bg-img">
+            <img
+              src="./assets/imgs/code.png"
+              alt="code background"
+              class="code-img"
+            />
+          </div>
+        </div>
+        <a id="skills"></a>
+        <section class="first">
+          <h2>
+            My Skills
+            <hr />
+          </h2>
+          <article>
+            <p>
+              I have working with programming in general for a bit more than 20
+              years. I started into this field (programming) with languages such
+              as <code>C</code> (enhanced with OpenGL), <code>Fortran</code>,
+              <code>Pascal</code>, <code>GXC / GS</code> (scriptting languages
+              used specifically on Oasis Montaj - a geophysical data processing
+              software developed by Geosoft Inc.), <code>Java</code>, an many
+              other programming languages with specific use to physical
+              phenomena and mathematics simulation.
+            </p>
+            <p>
+              Along the last 5 years I have dedicated my mind space into
+              learning new skills to improve my knowledge over programming in
+              general. That lead me to a career change, from a former physicist
+              to a webdeveloper. As part of my current skillset, technologies
+              such as <code>Noje.js</code>, <code>Sequelize ORM</code>,
+              <code>React.js</code> are being actively used in small / show case
+              projects.
+            </p>
+            <a href="./pages/skills.html" class="read-more">Read more...</a>
+          </article>
+        </section>
+        <a id="projects"></a>
+        <section>
+          <h2>
+            My Work
+            <hr />
+          </h2>
+          <article>
+            <p>
+              Because of the constant updates to technoligy itself, sadly I
+              don't have access to some of my old projects. Most of them are
+              stored into the old <code>floppy disks</code>, but in my projects
+              page, it's possible to see some projectes that were created while
+              I was taking online courses, as well as some other public projects
+              created for individuals.
+            </p>
+            <p>
+              Also it's possible to have access to my
+              <strong>portfolio</strong>, hosted on DeviantArt, where I showcase
+              some design projects.
+            </p>
+            <a href="./pages/projects.html" class="read-more">Read more...</a>
+          </article>
+        </section>
+        <a id="contact"></a>
+        <section>
+          <article>
+            <h2>
+              Get in touch
+              <hr />
+            </h2>
+            <p>
+              If you have any suggestions, requests or want to know more about
+              me or my projects, you can reach me out via
+              <a href="mailto:vonschappler_dev@outlook.com">e-mail</a>.
+            </p>
+            <p>There are also other ways of contacting me,</p>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-section">
+          <h3><i class="fa-solid fa-share-nodes"></i> Connect with me</h3>
+          <div id="connect">
+            <a href=""><i class="fa-brands fa-deviantart"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-twitch"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3><i class="fa-solid fa-dolar"></i> Become a sponsor*</h3>
+          <div id="connect">
+            <a href=""><i class="fa-brands fa-paypal"></i></a>
+            <a href=""><i class="fa-solid fa-qrcode"></i></a>
+          </div>
+        </div>
+        <div id="copyright">
+          <hr />
+          <span>
+            * Becoming a sponsor / supporting projects is not required, but
+            appreciated. No refunds are applied if you desire to support.
+          </span>
+          <span>
+            Disclaimer: This website is better visualized on Chrome based
+            browsers - it uses experimental technologies.
+          </span>
+          <span>&copy; von Schappler &bull; 2024</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
